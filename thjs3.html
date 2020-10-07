@@ -5,11 +5,13 @@
     <title>Title</title>
 </head>
 <body>
-    <button type="button" onclick="show">clickme</button>
     <script>
-        function show() {
-            document.write(hello)
-
+        a = prompt("nhận biến a: ");
+        b = prompt("nhận biến b: ");
+        if(a%b == 0){
+            alert('a chia hết cho b');
+        }else {
+            alert('a không chia hết cho b');
         }
     </script>
 </body>
